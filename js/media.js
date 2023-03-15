@@ -38,10 +38,13 @@ const media = (nota1 + nota2 + nota3 + nota4) /4;
      else if (media >= 7.1 && media <=9.9) {
       mensagem = "Notão! Sua média é " + media + "!";
   } 
+     else if (media === 10) {
+      mensagem = "Hoje é seu aniversário? Pq você ta de parabéns! 10 de média"
+  } 
      else {
-      mensagem = "Hoje é seu aniversário? Pq você ta de parabéns! 10 de média";
+      mensagem = "Digite um número válido no campo nota";
   }
-
+  
   // evite mexer na linha de código abaixo!
   document.getElementById("situacaoAluno").innerHTML = mensagem;
 }
