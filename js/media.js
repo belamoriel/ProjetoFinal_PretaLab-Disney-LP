@@ -40,9 +40,8 @@ const soma = (nota1 + nota2 + nota3 + nota4)/4;
   } 
      else (soma = 10) 
       mensagem = "Hoje é seu aniversário? Pq você ta de parabéns! 10 de média";
-}
 
 
   // evite mexer na linha de código abaixo!
   document.getElementById("situacaoAluno").innerHTML = mensagem;
-
+}
